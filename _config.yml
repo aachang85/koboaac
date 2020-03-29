@@ -36,6 +36,12 @@ analytics: false
 
 future: true
 
+airtable_data:
+  api_key: "keyXW9R3pfKe4oCHG" # Airtable API key available in the API documentation for your base
+  app_id: "app4CbHFFLmupun3X" # Airtable app ID found in the API documentation for your base
+  tables:
+    - "Books"
+
 # Compress CSS
 sass:
   style: compressed
