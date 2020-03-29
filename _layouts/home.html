@@ -20,4 +20,10 @@ layout: default
       {% endfor %}
     </ul>
 
+    <ul>
+      {% for books in site.data.books %}
+        <li><a href="{{books.file[0].url}}"> {{ books.name }} </a></li>
+      {% endfor %}    
+    </ul>
+
   </section>
