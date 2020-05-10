@@ -1,5 +1,5 @@
 [build]
-  command = "jekyll build"
+  command = "jekyll airtable_data && build"
   publish = "_site"
 
 [build.environment]
